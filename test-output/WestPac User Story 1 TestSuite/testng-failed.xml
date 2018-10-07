@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WestPac User Story 1 TestSuite]">
+  <test name="2.a. Test  Currency conversion from NZD To USD(failed)">
+    <parameter name="toCurrency" value="United States Dollar"/>
+    <parameter name="amountToConvert" value="1"/>
+    <parameter name="fromCurrency" value="New Zealand Dollar"/>
+    <classes>
+      <class name="Test.TestWestPacUserStory2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_Valid_Currency_Conversion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.TestWestPacUserStory2 -->
+    </classes>
+  </test> <!-- 2.a. Test  Currency conversion from NZD To USD(failed) -->
+  <test name="2.b. Test Currency conversion from USD To NZD(failed)">
+    <parameter name="toCurrency" value="New Zealand Dollar"/>
+    <parameter name="amountToConvert" value="1"/>
+    <parameter name="fromCurrency" value="United States Dollar"/>
+    <classes>
+      <class name="Test.TestWestPacUserStory2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_Valid_Currency_Conversion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.TestWestPacUserStory2 -->
+    </classes>
+  </test> <!-- 2.b. Test Currency conversion from USD To NZD(failed) -->
+  <test name="2.c. Test Currency conversion from Pound To NZD(failed)">
+    <parameter name="toCurrency" value="New Zealand Dollar"/>
+    <parameter name="amountToConvert" value="1"/>
+    <parameter name="fromCurrency" value="Pound Sterling"/>
+    <classes>
+      <class name="Test.TestWestPacUserStory2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_Valid_Currency_Conversion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.TestWestPacUserStory2 -->
+    </classes>
+  </test> <!-- 2.c. Test Currency conversion from Pound To NZD(failed) -->
+  <test name="2.d. Test Currency conversion from Swiss To Euro(failed)">
+    <parameter name="toCurrency" value="Euro"/>
+    <parameter name="amountToConvert" value="1"/>
+    <parameter name="fromCurrency" value="Swiss Franc"/>
+    <classes>
+      <class name="Test.TestWestPacUserStory2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_Valid_Currency_Conversion" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.TestWestPacUserStory2 -->
+    </classes>
+  </test> <!-- 2.d. Test Currency conversion from Swiss To Euro(failed) -->
+</suite> <!-- Failed suite [WestPac User Story 1 TestSuite] -->

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WestPac User Story 1 TestSuite">
+  <test name="1.a. Test Error Message for Invalid Amount">
+        <parameter name="fromCurrency" value="New Zealand Dollar" />
+        <parameter name="toCurrency" value="United States Dollar" />
+    <classes>
+      <class name="Test.TestWestPacUserStory1"/>
+    </classes>
+  </test> 
+    <test name="1.b. Test Error Message for Invalid Amount">
+        <parameter name="fromCurrency" value="United States Dollar" />
+        <parameter name="toCurrency" value="New Zealand Dollar" />
+    <classes>
+      <class name="Test.TestWestPacUserStory1"/>
+    </classes>
+  </test> 
+    <test name="1.c. Test Error Message for Invalid Amount">
+        <parameter name="fromCurrency" value="Pound Sterling" />
+        <parameter name="toCurrency" value="New Zealand Dollar" />
+    <classes>
+      <class name="Test.TestWestPacUserStory1"/>
+    </classes>
+  </test> 
+      <test name="1.d. Test Error Message for Invalid Amount">
+        <parameter name="fromCurrency" value="Swiss Franc" />
+        <parameter name="toCurrency" value="Euro" />
+    <classes>
+      <class name="Test.TestWestPacUserStory1"/>
+    </classes>
+  </test> 
+  <test name="2.a. Test  Currency conversion from NZD To USD">
+        <parameter name="fromCurrency" value="New Zealand Dollar" />
+        <parameter name="toCurrency" value="United States Dollar" />
+        <parameter name="amountToConvert" value="1" />
+    <classes>
+      <class name="Test.TestWestPacUserStory2"/>
+    </classes>
+  </test> 
+    <test name="2.b. Test Currency conversion from USD To NZD">
+        <parameter name="fromCurrency" value="United States Dollar" />
+        <parameter name="toCurrency" value="New Zealand Dollar" />
+        <parameter name="amountToConvert" value="1" />
+    <classes>
+      <class name="Test.TestWestPacUserStory2"/>
+    </classes>
+  </test> 
+    <test name="2.c. Test Currency conversion from Pound To NZD">
+        <parameter name="fromCurrency" value="Pound Sterling" />
+        <parameter name="toCurrency" value="New Zealand Dollar" />
+        <parameter name="amountToConvert" value="1" />
+    <classes>
+      <class name="Test.TestWestPacUserStory2"/>
+    </classes>
+  </test> 
+    <test name="2.d. Test Currency conversion from Swiss To Euro">
+        <parameter name="fromCurrency" value="Swiss Franc" />
+        <parameter name="toCurrency" value="Euro" />
+        <parameter name="amountToConvert" value="1" />
+    <classes>
+      <class name="Test.TestWestPacUserStory2"/>
+    </classes>
+  </test> 
+</suite>
