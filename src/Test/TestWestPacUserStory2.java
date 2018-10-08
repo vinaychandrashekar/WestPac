@@ -1,29 +1,23 @@
 package Test;
 
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
 import PageFactory.CurrencyConverterPage;
 import PageFactory.WestPacHomePage;
+
 /**
- * Created by Vijay on 8/10/2018.
- * Test for WestPac User Story 2
- * As a Product Owner 
- *  want the feature to Convert Currency A to a Currency B and vice versa with the currency converter
- *  So that 
- *  The user gets an indication of the exchange rates and makes an informed decision on their foreign transactions
+ * Created by Vijay on 8/10/2018. Test for WestPac User Story 2 As a Product
+ * Owner want the feature to Convert Currency A to a Currency B and vice versa
+ * with the currency converter So that The user gets an indication of the
+ * exchange rates and makes an informed decision on their foreign transactions
  */
 public class TestWestPacUserStory2 {
 
@@ -46,7 +40,7 @@ public class TestWestPacUserStory2 {
 		objHomePage.navigateToCurrencyConverterPage();
 	}
 
-	@Test(priority = 1, description="Test Error Message when invalid amount is entered")
+	@Test(priority = 1, description = "Test Error Message when invalid amount is entered")
 	@Parameters({ "fromCurrency", "toCurrency", "amountToConvert" })
 
 	public void test_Valid_Currency_Conversion(String fromCurrency, String toCurrency, String amountToConvert)

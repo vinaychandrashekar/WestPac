@@ -8,19 +8,10 @@ import org.openqa.selenium.support.FindBy;
 
 import org.openqa.selenium.support.PageFactory;
 
-import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.Select;
-import java.math.BigDecimal;
 
 public class CurrencyConverterPage {
 
@@ -76,7 +67,7 @@ public class CurrencyConverterPage {
 				"In the Message display " + toCurrency + " : is not present in the : " + actualMsg);
 		Assert.assertTrue(actualMsg.contains("Rates updated as of "),
 				"In the Message display : New Zealand Dollar @ : is not present in the : " + actualMsg);
-		
+
 		switch (fromCurrency) {
 		case "New Zealand Dollar":
 			Assert.assertTrue(actualMsg.contains("Certain transactions are subject to a commission charge."),

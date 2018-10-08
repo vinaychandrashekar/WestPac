@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="WestPac User Story 1 TestSuite">
+<suite name="WestPac User Story TestSuite">
   <test name="1.a. Test Error Message for Invalid Amount">
         <parameter name="fromCurrency" value="New Zealand Dollar" />
         <parameter name="toCurrency" value="United States Dollar" />
