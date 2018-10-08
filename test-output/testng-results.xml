@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="4" ignored="0" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="WestPac User Story 1 TestSuite" duration-ms="155624" started-at="2018-10-07T22:25:10Z" finished-at="2018-10-07T22:27:45Z">
+  <suite name="WestPac User Story 1 TestSuite" duration-ms="153091" started-at="2018-10-07T23:56:19Z" finished-at="2018-10-07T23:58:52Z">
     <groups>
     </groups>
-    <test name="1.a. Test Error Message for Invalid Amount" duration-ms="15494" started-at="2018-10-07T22:25:10Z" finished-at="2018-10-07T22:25:25Z">
+    <test name="1.a. Test Error Message for Invalid Amount" duration-ms="14534" started-at="2018-10-07T23:56:19Z" finished-at="2018-10-07T23:56:34Z">
       <class name="Test.TestWestPacUserStory1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@28feb3fa]" name="setup" is-config="true" duration-ms="12211" started-at="2018-10-08T11:25:10Z" finished-at="2018-10-08T11:25:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@28feb3fa]" name="setup" is-config="true" duration-ms="11545" started-at="2018-10-08T12:56:19Z" finished-at="2018-10-08T12:56:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@28feb3fa]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3033" started-at="2018-10-08T11:25:22Z" finished-at="2018-10-08T11:25:25Z">
+        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@28feb3fa]" name="test_Warning_Message_For_Invalid_Input" duration-ms="2784" started-at="2018-10-08T12:56:31Z" finished-at="2018-10-08T12:56:33Z">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Warning_Message_For_Invalid_Input -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@28feb3fa]" name="tearDown" is-config="true" duration-ms="200" started-at="2018-10-08T11:25:25Z" finished-at="2018-10-08T11:25:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@28feb3fa]" name="tearDown" is-config="true" duration-ms="168" started-at="2018-10-08T12:56:33Z" finished-at="2018-10-08T12:56:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory1 -->
     </test> <!-- 1.a. Test Error Message for Invalid Amount -->
-    <test name="1.b. Test Error Message for Invalid Amount" duration-ms="14151" started-at="2018-10-07T22:25:25Z" finished-at="2018-10-07T22:25:39Z">
+    <test name="1.b. Test Error Message for Invalid Amount" duration-ms="14286" started-at="2018-10-07T23:56:34Z" finished-at="2018-10-07T23:56:48Z">
       <class name="Test.TestWestPacUserStory1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@523884b2]" name="setup" is-config="true" duration-ms="10354" started-at="2018-10-08T11:25:25Z" finished-at="2018-10-08T11:25:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@523884b2]" name="setup" is-config="true" duration-ms="10687" started-at="2018-10-08T12:56:34Z" finished-at="2018-10-08T12:56:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@523884b2]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3581" started-at="2018-10-08T11:25:36Z" finished-at="2018-10-08T11:25:39Z">
+        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@523884b2]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3245" started-at="2018-10-08T12:56:44Z" finished-at="2018-10-08T12:56:48Z">
           <params>
             <param index="0">
               <value>
@@ -55,19 +55,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Warning_Message_For_Invalid_Input -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@523884b2]" name="tearDown" is-config="true" duration-ms="209" started-at="2018-10-08T11:25:39Z" finished-at="2018-10-08T11:25:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@523884b2]" name="tearDown" is-config="true" duration-ms="352" started-at="2018-10-08T12:56:48Z" finished-at="2018-10-08T12:56:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory1 -->
     </test> <!-- 1.b. Test Error Message for Invalid Amount -->
-    <test name="1.c. Test Error Message for Invalid Amount" duration-ms="13915" started-at="2018-10-07T22:25:39Z" finished-at="2018-10-07T22:25:53Z">
+    <test name="1.c. Test Error Message for Invalid Amount" duration-ms="14157" started-at="2018-10-07T23:56:48Z" finished-at="2018-10-07T23:57:02Z">
       <class name="Test.TestWestPacUserStory1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@3532ec19]" name="setup" is-config="true" duration-ms="10774" started-at="2018-10-08T11:25:39Z" finished-at="2018-10-08T11:25:50Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@3532ec19]" name="setup" is-config="true" duration-ms="10712" started-at="2018-10-08T12:56:48Z" finished-at="2018-10-08T12:56:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@3532ec19]" name="test_Warning_Message_For_Invalid_Input" duration-ms="2950" started-at="2018-10-08T11:25:50Z" finished-at="2018-10-08T11:25:53Z">
+        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@3532ec19]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3232" started-at="2018-10-08T12:56:59Z" finished-at="2018-10-08T12:57:02Z">
           <params>
             <param index="0">
               <value>
@@ -83,19 +83,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Warning_Message_For_Invalid_Input -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@3532ec19]" name="tearDown" is-config="true" duration-ms="187" started-at="2018-10-08T11:25:53Z" finished-at="2018-10-08T11:25:53Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@3532ec19]" name="tearDown" is-config="true" duration-ms="203" started-at="2018-10-08T12:57:02Z" finished-at="2018-10-08T12:57:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory1 -->
     </test> <!-- 1.c. Test Error Message for Invalid Amount -->
-    <test name="1.d. Test Error Message for Invalid Amount" duration-ms="14788" started-at="2018-10-07T22:25:53Z" finished-at="2018-10-07T22:26:08Z">
+    <test name="1.d. Test Error Message for Invalid Amount" duration-ms="12748" started-at="2018-10-07T23:57:02Z" finished-at="2018-10-07T23:57:15Z">
       <class name="Test.TestWestPacUserStory1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="setup" is-config="true" duration-ms="10751" started-at="2018-10-08T11:25:53Z" finished-at="2018-10-08T11:26:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="setup" is-config="true" duration-ms="9240" started-at="2018-10-08T12:57:02Z" finished-at="2018-10-08T12:57:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3697" started-at="2018-10-08T11:26:04Z" finished-at="2018-10-08T11:26:08Z">
+        <test-method status="PASS" signature="test_Warning_Message_For_Invalid_Input(java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="test_Warning_Message_For_Invalid_Input" duration-ms="3293" started-at="2018-10-08T12:57:11Z" finished-at="2018-10-08T12:57:15Z">
           <params>
             <param index="0">
               <value>
@@ -111,19 +111,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Warning_Message_For_Invalid_Input -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="tearDown" is-config="true" duration-ms="334" started-at="2018-10-08T11:26:08Z" finished-at="2018-10-08T11:26:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory1@3e6fa38a]" name="tearDown" is-config="true" duration-ms="213" started-at="2018-10-08T12:57:15Z" finished-at="2018-10-08T12:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory1 -->
     </test> <!-- 1.d. Test Error Message for Invalid Amount -->
-    <test name="2.a. Test  Currency conversion from NZD To USD" duration-ms="24062" started-at="2018-10-07T22:26:08Z" finished-at="2018-10-07T22:26:32Z">
+    <test name="2.a. Test  Currency conversion from NZD To USD" duration-ms="22767" started-at="2018-10-07T23:57:15Z" finished-at="2018-10-07T23:57:38Z">
       <class name="Test.TestWestPacUserStory2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@5c3bd550]" name="setup" is-config="true" duration-ms="10646" started-at="2018-10-08T11:26:08Z" finished-at="2018-10-08T11:26:19Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@5c3bd550]" name="setup" is-config="true" duration-ms="9925" started-at="2018-10-08T12:57:15Z" finished-at="2018-10-08T12:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@5c3bd550]" name="test_Valid_Currency_Conversion" duration-ms="13167" started-at="2018-10-08T11:26:19Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T11:26:32Z">
+        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@5c3bd550]" name="test_Valid_Currency_Conversion" duration-ms="12653" started-at="2018-10-08T12:57:25Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T12:57:38Z">
           <params>
             <param index="0">
               <value>
@@ -148,8 +148,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.YsXd34GXZYiU, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=26076, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: f60b3ba7-aff0-4b02-ae1b-f5e9723b6d16
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.PHLenPVp2pbF, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=20880, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 14abf2c5-cd5e-4312-9b47-a91010b1b4a6
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}]]>
             </message>
             <full-stacktrace>
@@ -158,8 +158,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.YsXd34GXZYiU, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=26076, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: f60b3ba7-aff0-4b02-ae1b-f5e9723b6d16
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.PHLenPVp2pbF, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=20880, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 14abf2c5-cd5e-4312-9b47-a91010b1b4a6
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -212,19 +212,19 @@ Session ID: f60b3ba7-aff0-4b02-ae1b-f5e9723b6d16
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Valid_Currency_Conversion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@5c3bd550]" name="tearDown" is-config="true" duration-ms="234" started-at="2018-10-08T11:26:32Z" finished-at="2018-10-08T11:26:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@5c3bd550]" name="tearDown" is-config="true" duration-ms="181" started-at="2018-10-08T12:57:38Z" finished-at="2018-10-08T12:57:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory2 -->
     </test> <!-- 2.a. Test  Currency conversion from NZD To USD -->
-    <test name="2.b. Test Currency conversion from USD To NZD" duration-ms="23770" started-at="2018-10-07T22:26:32Z" finished-at="2018-10-07T22:26:56Z">
+    <test name="2.b. Test Currency conversion from USD To NZD" duration-ms="25050" started-at="2018-10-07T23:57:38Z" finished-at="2018-10-07T23:58:03Z">
       <class name="Test.TestWestPacUserStory2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="setup" is-config="true" duration-ms="10267" started-at="2018-10-08T11:26:32Z" finished-at="2018-10-08T11:26:43Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="setup" is-config="true" duration-ms="11673" started-at="2018-10-08T12:57:38Z" finished-at="2018-10-08T12:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="test_Valid_Currency_Conversion" duration-ms="13333" started-at="2018-10-08T11:26:43Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T11:26:56Z">
+        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="test_Valid_Currency_Conversion" duration-ms="13211" started-at="2018-10-08T12:57:50Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T12:58:03Z">
           <params>
             <param index="0">
               <value>
@@ -249,8 +249,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.6mAqAcQq7yAs, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=948, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: ab165106-8468-44ec-8659-e550585bafc5
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.KiDieteGAttN, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=17736, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: c4bba7db-d8d3-4437-b835-ff09197fdcdd
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}]]>
             </message>
             <full-stacktrace>
@@ -259,8 +259,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.6mAqAcQq7yAs, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=948, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: ab165106-8468-44ec-8659-e550585bafc5
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.KiDieteGAttN, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=17736, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: c4bba7db-d8d3-4437-b835-ff09197fdcdd
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -313,19 +313,19 @@ Session ID: ab165106-8468-44ec-8659-e550585bafc5
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Valid_Currency_Conversion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="tearDown" is-config="true" duration-ms="167" started-at="2018-10-08T11:26:56Z" finished-at="2018-10-08T11:26:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@6d4b1c02]" name="tearDown" is-config="true" duration-ms="160" started-at="2018-10-08T12:58:03Z" finished-at="2018-10-08T12:58:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory2 -->
     </test> <!-- 2.b. Test Currency conversion from USD To NZD -->
-    <test name="2.c. Test Currency conversion from Pound To NZD" duration-ms="24571" started-at="2018-10-07T22:26:56Z" finished-at="2018-10-07T22:27:21Z">
+    <test name="2.c. Test Currency conversion from Pound To NZD" duration-ms="24270" started-at="2018-10-07T23:58:03Z" finished-at="2018-10-07T23:58:27Z">
       <class name="Test.TestWestPacUserStory2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@42e26948]" name="setup" is-config="true" duration-ms="10779" started-at="2018-10-08T11:26:56Z" finished-at="2018-10-08T11:27:07Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@42e26948]" name="setup" is-config="true" duration-ms="10835" started-at="2018-10-08T12:58:03Z" finished-at="2018-10-08T12:58:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@42e26948]" name="test_Valid_Currency_Conversion" duration-ms="13544" started-at="2018-10-08T11:27:07Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T11:27:20Z">
+        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@42e26948]" name="test_Valid_Currency_Conversion" duration-ms="13061" started-at="2018-10-08T12:58:14Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T12:58:27Z">
           <params>
             <param index="0">
               <value>
@@ -350,8 +350,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.A8CUY8U5RCtQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=13652, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: 962bcef5-927b-467a-bc66-e6d4f705951a
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.uFSLii2xRV5I, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=6964, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: e6016da3-814a-4e0f-ac1c-bdeb7236650b
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}]]>
             </message>
             <full-stacktrace>
@@ -360,8 +360,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.A8CUY8U5RCtQ, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=13652, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: 962bcef5-927b-467a-bc66-e6d4f705951a
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.uFSLii2xRV5I, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=6964, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: e6016da3-814a-4e0f-ac1c-bdeb7236650b
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -414,19 +414,19 @@ Session ID: 962bcef5-927b-467a-bc66-e6d4f705951a
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Valid_Currency_Conversion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@42e26948]" name="tearDown" is-config="true" duration-ms="242" started-at="2018-10-08T11:27:20Z" finished-at="2018-10-08T11:27:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@42e26948]" name="tearDown" is-config="true" duration-ms="363" started-at="2018-10-08T12:58:27Z" finished-at="2018-10-08T12:58:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test.TestWestPacUserStory2 -->
     </test> <!-- 2.c. Test Currency conversion from Pound To NZD -->
-    <test name="2.d. Test Currency conversion from Swiss To Euro" duration-ms="24588" started-at="2018-10-07T22:27:21Z" finished-at="2018-10-07T22:27:45Z">
+    <test name="2.d. Test Currency conversion from Swiss To Euro" duration-ms="24906" started-at="2018-10-07T23:58:27Z" finished-at="2018-10-07T23:58:52Z">
       <class name="Test.TestWestPacUserStory2">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@4667ae56]" name="setup" is-config="true" duration-ms="10567" started-at="2018-10-08T11:27:21Z" finished-at="2018-10-08T11:27:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.TestWestPacUserStory2@4667ae56]" name="setup" is-config="true" duration-ms="11220" started-at="2018-10-08T12:58:27Z" finished-at="2018-10-08T12:58:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@4667ae56]" name="test_Valid_Currency_Conversion" duration-ms="13795" started-at="2018-10-08T11:27:31Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T11:27:45Z">
+        <test-method status="FAIL" signature="test_Valid_Currency_Conversion(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:Test.TestWestPacUserStory2@4667ae56]" name="test_Valid_Currency_Conversion" duration-ms="13548" started-at="2018-10-08T12:58:38Z" description="Test Error Message when invalid amount is entered" finished-at="2018-10-08T12:58:52Z">
           <params>
             <param index="0">
               <value>
@@ -451,8 +451,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.GcOBZvdtNfeL, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=5904, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: 7f275925-d458-4769-99e8-da7a49c9651e
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.ctJMA3yL5r8C, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=26528, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: ea04b428-714d-4137-b81c-a38a3afadea0
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}]]>
             </message>
             <full-stacktrace>
@@ -461,8 +461,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:26.402Z'
 System info: host: 'VIJAY', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.GcOBZvdtNfeL, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=5904, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
-Session ID: 7f275925-d458-4769-99e8-da7a49c9651e
+Capabilities [{moz:profile=C:\Users\vijayc\AppData\Local\Temp\rust_mozprofile.ctJMA3yL5r8C, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=true, browserVersion=62.0.3, platformVersion=10.0, moz:processID=26528, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: ea04b428-714d-4137-b81c-a38a3afadea0
 *** Element info: {Using=xpath, value=/html/body/div/table[1]/tbody/tr/td/form/div[1]/em}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -515,7 +515,7 @@ Session ID: 7f275925-d458-4769-99e8-da7a49c9651e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Valid_Currency_Conversion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@4667ae56]" name="tearDown" is-config="true" duration-ms="222" started-at="2018-10-08T11:27:45Z" finished-at="2018-10-08T11:27:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test.TestWestPacUserStory2@4667ae56]" name="tearDown" is-config="true" duration-ms="133" started-at="2018-10-08T12:58:52Z" finished-at="2018-10-08T12:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

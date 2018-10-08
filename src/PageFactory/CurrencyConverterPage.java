@@ -59,6 +59,7 @@ public class CurrencyConverterPage {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		convertFrom.selectByVisibleText(fromCurrency);
 		amountField.clear();
+		amountField.sendKeys(amount);
 		convertTo.selectByVisibleText(toCurrency);
 		currencyConvertButton.click();
 		verifyCurrencyConverted(fromCurrency, toCurrency, amount);
